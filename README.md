@@ -1,5 +1,14 @@
 # Marlin-4Max-SKR1.4
-My mods for the Marlin firmware, for the 4Max (original model) 3D printer modified with a SKR1.4 Turbo and TMC2209 drivers.
+
+## About this version
+
+This is the customized Marlin firmware for my Anycubic 4Max (original model) 3D printer, modified with a BigTreeTech SKR 1.4 Turbo mainboard, and TMC2209 drivers.
+
+As I am missing the original firmware and there is seemingly very little information remaining online for this inexplicably abandoned product, I've started by attempting to integrate the machine-specific settings on [Shiyue Liu's customization of Marlin 1.1.9 for a TMC2208-modded 4Max](https://github.com/iceananas/Marlin-1.1.9-for-Anycubic-4Max-with-TMC2208) to the Marlin 2 configuration headers, and then working from there to apply the changes needed for the new mainboard and drivers. 
+
+**NOTE:** *This is a work in progress, and likely does not yet build, let alone function correctly.*
+
+---
 
 
 # Marlin 3D Printer Firmware
@@ -10,17 +19,6 @@ My mods for the Marlin firmware, for the 4Max (original model) 3D printer modifi
 [![Build Status](https://github.com/MarlinFirmware/Marlin/workflows/CI/badge.svg?branch=bugfix-2.0.x)](https://github.com/MarlinFirmware/Marlin/actions)
 
 <img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
-
----
-## About this version
-
-This is the customized Marlin firmware for my Anycubic 4Max (original model) 3D printer, modified with a BigTreeTech SKR 1.4 Turbo mainboard, and TMC2209 drivers.
-
-As I am missing the original firmware and there is seemingly very little information remaining online for this inexplicably abandoned product, I've started by attempting to integrate the machine-specific settings on [Shiyue Liu's customization of Marlin 1.1.9 for a TMC2208-modded 4Max](https://github.com/iceananas/Marlin-1.1.9-for-Anycubic-4Max-with-TMC2208) to the Marlin 2 configuration headers, and then working from there to apply the changes needed for the new mainboard and drivers. 
-
-**NOTE:** *This is a work in progress, and likely does not yet build, let alone function correctly.*
-
----
 
 Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
 Please let us know if Marlin misbehaves in any way. Volunteers are standing by!
